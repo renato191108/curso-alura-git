@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>INOVATECNO - Tecnologia Inovadora</title>
+    <style>
+        /* ... (estilos CSS aqui) ... */
+    </style>
+    <script src="scripts.js" defer></script>
 </head>
-
 <body>
-    <h1>Meus Jogos</h1>
-    <h2>Jogos atuais</h2>
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnRlbmtvbjhlNzc3bmd6a25zcjNvdTNneXM0enc2cmtldnRqeGx5NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AEldvF2yu5Wthpxoih/giphy.gif" alt="">
-    <img src="https://media.tenor.com/PBxZXspX_3UAAAAC/iron-man-homem-de-ferro.gif" alt="">
-    <img src="https://i.pinimg.com/originals/a8/d8/7f/a8d87ff3cd59ad5d13830542325961fb.gif" alt="">
-    <script> src = "app.js"</script>
+    <header>
+        <!-- ... (cabeçalho do site) ... -->
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à INOVATECNO, onde transformamos ideias em soluções tecnológicas incríveis.</p>
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Desenvolvimento de Software</li>
+                <li>Consultoria em Tecnologia</li>
+                <li>Inteligência Artificial e Aprendizado de Máquina</li>
+                <li>Desenvolvimento de Aplicativos Móveis</li>
+            </ul>
+
+            <!-- Formulário de Contato -->
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="4" required></textarea>
+                <br>
+                <button type="button" onclick="enviarMensagem()">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <!-- ... (rodapé do site) ... -->
+    </footer>
 </body>
-
-
 </html>
